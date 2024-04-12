@@ -5,5 +5,9 @@
         ansible_connection: docker
   deb:
     hosts:
-      ubuntu:
+      debian:
         ansible_connection: docker
+  loc:
+    hosts:
+      localhost:
+        ansible_connection: local
